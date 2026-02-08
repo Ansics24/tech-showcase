@@ -1,0 +1,12 @@
+### Get Users
+GET {{url}}/users
+
+### Put User
+PUT {{url}}/users
+Content-Type: application/json
+
+{
+  "id": 4711,
+  "name": "Schulte",
+  "email": "my@email.org"
+}
