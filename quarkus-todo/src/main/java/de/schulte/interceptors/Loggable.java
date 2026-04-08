@@ -1,4 +1,4 @@
-package de.schulte;
+package de.schulte.interceptors;
 
 import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;

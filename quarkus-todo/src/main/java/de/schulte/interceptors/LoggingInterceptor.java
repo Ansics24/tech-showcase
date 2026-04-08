@@ -1,7 +1,5 @@
-package de.schulte;
+package de.schulte.interceptors;
 
-import jakarta.annotation.Priority;
-import jakarta.enterprise.context.Dependent;
 import jakarta.interceptor.AroundInvoke;
 import jakarta.interceptor.Interceptor;
 import jakarta.interceptor.InvocationContext;
