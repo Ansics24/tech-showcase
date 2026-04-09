@@ -31,4 +31,9 @@ public class TasksResource {
         tasks.put(task.id(), task);
         return task;
     }
+
+    @DELETE
+    public void deleteTask(long id) {
+        this.tasks.remove(id);
+    }
 }

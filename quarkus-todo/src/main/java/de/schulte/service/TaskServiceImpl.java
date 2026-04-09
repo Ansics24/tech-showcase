@@ -26,5 +26,10 @@ public class TaskServiceImpl implements TaskService {
         return this.tasks.get(id);
     }
 
+    @Override
+    public void deleteTask(long id) {
+        this.tasks.remove(id);
+    }
+
 }
 
